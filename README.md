@@ -10,6 +10,10 @@ Link to register for google cloud:
 
 http://google.force.com/GCPEDU?cid=qWo7XK2Z0oaxYu1hqmQFprFpozpEI2OBfS5%2F5XMUZrQZ78fAkXpPb%2BNTtYPg7Tci/
 
+Another Link to register for another account on google cloud:
+
+http://google.force.com/GCPEDU?cid=b3%2FFDVCbYP4DKnr0CcCQIv3JcyYBzZ6iYUV9X4A7z7Irl54dRdexsEZRQ9hPlt5p/
+
 Recommended reading/viewing:
 
 In general there is an overabundance of reading material on the internet about Linux/Unix and, as we discussed, you sometimes don't even need to go anywhere to learn - right there in your terminal you have `--help` and `man COMMAND` to get answers about different linux tools. 
