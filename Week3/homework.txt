@@ -1,7 +1,12 @@
+Problem 1.
+
 You are a hacker.
-You want to run some jobs overnight on your victim's machine while they aren't at work so they don't notice to heavy load on their machine.
+You want to run some jobs overnight on your victim's machine while they aren't at work so they don't notice the heavy load on their machine.
 Implement a way to stop all of a user's jobs at 9AM everyday and restart them at 5PM.
 
 Fork and clone the NJCU_Linux_Class repo, add your solution under Week3/YourName
 
-Add files, brief scripts / explanatory notes / etc. illustrating how you would do this. Make a pull request to the class repo before 7PM on valentine's day.
+Add files, brief scripts / explanatory notes / etc. illustrating how you would do this. Make a pull request to the class repo before 7PM on valentine's day. ( A brief explanation in text along with the system changes. If the only change you made was to apt-get some software, then write that. If the only change you made was to configure a cron job to send the appropriate signal to a user's processes.
+
+Problem 2.
+<Not graded> Just play with github. Clone some software, create repos, fork some repos, submit pull requests, reread the git book, whatever. Get yourself well acquainted with git. 

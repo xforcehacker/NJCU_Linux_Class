@@ -1,0 +1,5 @@
+1. Set up a postgresql server on your machine. Have it contain a table with the following data:
+
+Instructions for setting up the server:
+
+2. Configure your machine to allow password based ssh logins on a nonstandard port.
