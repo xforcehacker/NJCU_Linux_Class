@@ -1,17 +1,31 @@
-Set up a git server on your cloud machine as instructed here:
-https://git-scm.com/book/en/v2/Git-on-the-Server-The-Protocols
-https://git-scm.com/book/en/v2/Git-on-the-Server-Getting-Git-on-a-Server
-https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key
-https://git-scm.com/book/en/v2/Git-on-the-Server-Setting-Up-the-Server
+Make a pull request on my repository. The pr should contain a directory which contains:
 
-Create a repo on that machine containing a few cool ascii cats from here:
-https://www.asciiart.eu/
+    a) a .txt file explaining in 3 sentences why rm is a dangerous command.
 
-Email me a few short sentences about what git is and the importance of version control, as well as instructions for how I can clone the repo to my laptop to verify your repo works.
+    b) A bashrc file ( we'll call it bashrc and not .bashrc just so it's easier to commit the file )
+    
+        containing
+            1. an alternative to rm ( either an alias or a function
+            2. aliases for 3 directories so it's easier to cd to them
+            3. a function that does something
+        
 
-I've added my id_rsa.pub to this repo so you can put it on the server.
+---------
 
-To pass this assignment:
-1. I must be able to clone the repository from your machine and see that there are some nice looking cats in the repo, in files like tabby.txt, kitty.txt, etc.
+When I clone the repo on Thursday night after class I want to see it laid out like this:
 
-2. You must convince me in a paragraph or less that you have a rough idea of the importance of version control.
+rm
+    student1
+        explanation.txt
+        bashrc
+    student2
+        explanation.txt
+        bashrc
+    student3
+        ... etc ...
+
+----
+
+
+Need help??
+https://superuser.com/questions/382407/best-practices-to-alias-the-rm-command-and-make-it-safer
