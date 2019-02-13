@@ -1,3 +1,2 @@
 1. Install some software from source, update symlinks.
 [provide software to install]
-2. alias rm to a script that isn't as dangerous.
