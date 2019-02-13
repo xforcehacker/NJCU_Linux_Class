@@ -1,3 +1,4 @@
 1. Move your home directory to a new partition on a new disk.
 2. Add swap space to your machine.
-3. Change the ssh banner of your machine to be a brief bit of text explaining why someone would move their home directory to a new partition, and a bit of text explaining what swap space is and why you would want more of it.
+3. Change the ssh banner of your machine to be a brief bit of text explaining why someone would move their home directory to a new
+partition, and a bit of text explaining what swap space is and why you would want more of it.
