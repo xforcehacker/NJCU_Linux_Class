@@ -14,7 +14,7 @@ Make a pull request on my repository. The pr should contain a directory which co
 
 When I clone the repo on Thursday night after class I want to see it laid out like this:
 
-rm
+
     student1
         explanation.txt
         bashrc
