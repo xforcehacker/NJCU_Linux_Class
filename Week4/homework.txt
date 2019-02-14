@@ -1,4 +1,4 @@
-Make a pull request on my repository. The pr should contain a directory which contains:
+Make a pull request on my repository. The pr should contain a directory which contains 6 files:
 
     a) a .txt file explaining in 3 sentences why rm is a dangerous command.
 
@@ -9,7 +9,13 @@ Make a pull request on my repository. The pr should contain a directory which co
             2. aliases for 3 directories so it's easier to cd to them
             3. a function that does something
         
-
+    c) a bash program you wrote that uses a while loop
+    
+    d) a bash program you wrote that uses a for loop
+    
+    e) a bash program that uses an "if" statement with the "test" command
+    
+    f) a shell script that can be run with the bash interpreter, but which will not run with sh.
 ---------
 
 When I clone the repo on Thursday night after class I want to see it laid out like this:
@@ -18,9 +24,17 @@ When I clone the repo on Thursday night after class I want to see it laid out li
     student1
         explanation.txt
         bashrc
+        prog1.sh
+        prog2.sh
+        prog3.sh
+        prog4.sh
     student2
         explanation.txt
         bashrc
+        prog1.sh
+        prog2.sh
+        prog3.sh
+        prog4.sh
     student3
         ... etc ...
 
