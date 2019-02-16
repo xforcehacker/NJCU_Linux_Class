@@ -1,0 +1,15 @@
+Problem 1.
+
+The gist of the problem is: implement a way to stop all of a user's jobs at 9AM everyday and restart them at 5PM. 
+You already did this in hw 2.
+
+We covered cron jobs in class, you use cron to schedule jobs.
+
+Use crontab -e to add this cron job:
+
+* 9 * * * ps -u username_here | cut -c 1-5 | xargs kill -STOP
+* 17 * * * ps -u whatever_username_you_targeted_above | cut -c 1-5 | xargs kill -STOP
+
+Problem 2.
+Just read and practice. Note that I said to read only Ch1&2 of the git book - the book is long and complicated
+but ch 1 & 2 are relatively the same as what we did in class.
