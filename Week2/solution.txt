@@ -56,4 +56,4 @@ Test it out:
 4. Write a bash oneliner to STOP all processes belonging to user "joseph".
 
 POSSIBLE ANSWER
-ps -u joseph | grep python | cut -c 1-5 | xargs kill -STOP
+ps -u joseph | cut -c 1-5 | xargs kill -STOP
