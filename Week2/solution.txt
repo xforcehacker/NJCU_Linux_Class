@@ -36,7 +36,7 @@ ps -aux | grep python | cut -c 10-14 | grep "[13579]$" | xargs kill -STOP
   How do you apply a command to a series of inputs from stdin? hint: it rhymes with "xargs"
 
 POSSIBLE ANSWER
-grep -l "[0-9][0-9]-[0-9][0-9]-[0-9][0-9] . | xargs rm
+grep -lr "[0-9][0-9]-[0-9][0-9]-[0-9][0-9]" . | xargs rm
 
 Test it out:
 
