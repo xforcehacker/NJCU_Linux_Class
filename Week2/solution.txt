@@ -1,0 +1,59 @@
+
+Homework 2: Due via email by 7PM on February 7th 2019.
+
+0. Write a bash command to find the pids of all running python processes ( not python2 not python3, just python ).
+
+POSSIBLE ANSWER:
+pidof python
+
+########################################################################################
+
+1. Write a bash one-liner to get the pids of all *ython* processes running on your machine. i.e. all jython, python, python2, python3, cython, etc.
+POSSIBLE ANSWER
+ps -aux | grep ython | cut -c 10-14
+
+########################################################################################
+
+2. Write a bash program to sent the CONT signal to any *ython process whose pid is a multiple of 2, and a STOP signal to any process with an odd pid.
+  hint:
+  How do you list all running processes?
+  How do you filter processes to show only the ones you are interested in?
+  How do you extract a column from a table of data in linux? You may want to use cut -c.
+  What do you know about the last digit of an even number? Do you know how to pattern match the last digit of a string?
+  How do you apply a command to a series of inputs from stdin? hint: it rhymes with "xargs"
+
+POSSIBLE ANSWER
+ps -aux | grep python | cut -c 10-14 | grep "[02468]$" | xargs kill -STOP
+ps -aux | grep python | cut -c 10-14 | grep "[13579]$" | xargs kill -STOP
+
+
+########################################################################################
+
+
+3. Write a bash program to delete any file under the pwd that contains a string in the format "XX-XX-XX" where X is a numeric character.
+  hint: 
+  Is there a way to get grep to return a list of filenames corresponding to matched patterns?
+  How do you apply a command to a series of inputs from stdin? hint: it rhymes with "xargs"
+
+POSSIBLE ANSWER
+grep -l "[0-9][0-9]-[0-9][0-9]-[0-9][0-9] . | xargs rm
+
+Test it out:
+
+ mkdir -p a/b
+ echo "65-99-11" > a/foo.txt
+ echo "55-89-72" > a/b/foo.txt
+ cd a
+ grep -lr "[0-9][0-9]-[0-9][0-9]-[0-9][0-9]" .
+ grep -lr "[0-9][0-9]-[0-9][0-9]-[0-9][0-9]" . | xargs rm
+ grep -lr "[0-9][0-9]-[0-9][0-9]-[0-9][0-9]" .
+
+
+
+
+########################################################################################
+
+4. Write a bash oneliner to STOP all processes belonging to user "joseph".
+
+POSSIBLE ANSWER
+ps -u joseph | grep python | cut -c 1-5 | xargs kill -STOP
