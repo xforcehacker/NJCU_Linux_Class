@@ -13,3 +13,7 @@ https://www.tecmint.com/move-home-directory-to-new-partition-disk-in-linux/
 Grading:
 I'm going to log into your machine. I want to see swap space, a home directory on a new partition, and the indicated 
 ssh banner.
+
+[TBD] Considering doing a screen share on discord, never did it before. I figure if we do a screen share I can verify that
+you know how to do this assignment! Will update soon.
+https://www.youtube.com/watch?v=XUYYFD_ETSM
