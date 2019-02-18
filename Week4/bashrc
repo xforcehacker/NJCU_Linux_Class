@@ -1,0 +1,32 @@
+# ~/.bashrc: executed by bash(1) for non-login shells.
+# see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
+# for examples
+# We use preexec and precmd hook functions for Bash
+# If you have anything that's using the Debug Trap or PROMPT_COMMAND
+# change it to use preexec or precmd
+# See also https://github.com/rcaloras/bash-preexec
+
+
+#alternative to rm
+alias del="mv -v --target-directory ~/.Trash --backup=t"
+#===========================================================
+
+#aliases for the most common folders
+alias CS50="cd ~/Documents/Projects/CS50"
+alias linux="cd ~/Dropbox/NJCU/CS 407 intro to Unix-Linux/homework"
+alias dfolder="cd ~/Download"
+
+#============================================================
+#Make process searchable
+#it is executed by using the alias and the name of the process i.e "psg bash"
+alias psg="ps aux | grep -v grep | grep -i -e VSZ -e"
+
+#============================================================
+#Function to create a folder and move into it as soon as it gets createad
+mcd () {
+    mkdir -p $1
+    cd $1
+}
+#How to check your 10 most use commands in terminal
+#==============================================================
+alias favco="history | awk '{CMD[$2]++;count++;}END { for (a in CMD)print CMD[a] " " CMD[a]/count*100 "% " a;}' | grep -v "./" | column -c3 -s " " -t | sort -nr | nl |  head -n10"
