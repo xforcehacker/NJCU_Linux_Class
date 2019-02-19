@@ -1,0 +1,13 @@
+#alternative for rm command
+alias remove='rm'
+
+#aliases for 3 directories
+alias markd='cd ~/NJCU_Linux_Class/Week4/MarkDecello'
+alias week4='cd ~/NJCU_Linux_Class/Week4'
+alias njcu='cd ~/NJCU_Linux_Class'
+
+#Function that cats 3_reasons.txt
+reasons(){
+	cat 3_reasons.txt
+}
+

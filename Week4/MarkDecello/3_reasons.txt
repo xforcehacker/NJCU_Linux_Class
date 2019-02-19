@@ -1,0 +1,1 @@
+The rm -rf command is one of the fastest way to delete a folder and its contents. But a little typo or ignorance may result into unrecoverable system damage.The rm command can also be used in other dangerous ways – rm –rf ~ would delete all files in your home folder, while rm -rf .* would delete all your configuration files.
