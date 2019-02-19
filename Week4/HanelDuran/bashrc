@@ -1,0 +1,14 @@
+#!/bin/bash
+
+alias deleteforever='rm -rf'
+alias class='cd /home/hanelduran119/NJCU_Linux_Class'
+alias homework='cd /home/hanelduran119/NJCU_Linux_Class/Week4'
+alias hd='cd /home/hanelduran119/NJCU_Linux_Class/Week4/HanelDuran'
+
+print_something(){
+	echo "Hello"
+}
+
+print_something
+print_something
+
