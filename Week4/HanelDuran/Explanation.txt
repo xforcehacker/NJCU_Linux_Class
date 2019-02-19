@@ -1,0 +1,4 @@
+"rm" command is a dangerous command when used. If it is used, files or directories that a user removed from their respective locations,
+will no longer be there. Where windows has the "trash can" whenever a user decides to delete a file, once an "rm" command is used
+to removed a file, it is permanently deleted and cannot be recovered. 
+
