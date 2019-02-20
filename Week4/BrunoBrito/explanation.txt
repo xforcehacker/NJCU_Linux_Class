@@ -1,0 +1,3 @@
+one of the reasons why the rm command is so dangerous is that there is no such things as a trash can
+In windows is something is deleted it is normallyy moved to a recycle bin/trash can and can be recovered if necessary
+Also rm using a -r for recursive can delete more than what you intend to.
