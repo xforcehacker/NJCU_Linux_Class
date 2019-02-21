@@ -1,0 +1,13 @@
+#alias for most used folders
+ 
+alias rr= "rm"
+#alias for remove
+
+alias LC= "cd /home/daron/LinuxClass"
+alias DL= "cd /home/daron/Downloads"
+alias Doc="cd /home/daron/Documents"
+
+homedir()
+{
+	echo "This is daron's directory"
+}
