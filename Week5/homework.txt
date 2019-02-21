@@ -1,20 +1,25 @@
-Three Todos:
+# Homework 5
+## To Do:
 
-1. Move your home directory to a new partition on a new disk.
+1. Move the home directory to a new partition on a new disk.
 
 2. Add swap space to your machine.
 
-3. Change the ssh banner of your machine to be a brief bit of text explaining why someone would move their home directory to 
-a new partition, and a bit of text explaining what swap space is and why you would want more of it.
+3. Change the ssh message of the day of your machine to be three sentences explaining why someone would move their home
+directory to a new partition, and a bit of text explaining what swap space is and why you would want it. 
+
+4. Configure a user account that I can ssh into to verify your assignment.
 
 How to do it:
 https://www.tecmint.com/move-home-directory-to-new-partition-disk-in-linux/
 https://www.daveperrett.com/articles/2007/03/27/change-the-ssh-login-message/
 
-Grading:
-I'm going to log into your machine. I want to see swap space, a home directory on a new partition, and the indicated 
-ssh banner.
+## Grading:
+0% or 100%, should be a straight forward assignment. To get a 100% I want to be able to login to your machine as:
+username: melvyn
+password: melvyn
 
-[TBD] Considering doing a screen share on discord, never did it before. I figure if we do a screen share I can verify that
-you know how to do this assignment! Will update soon.
-https://www.youtube.com/watch?v=XUYYFD_ETSM
+I'm going to ssh in. I expect to see:
+1. `lsblk` shows the home directory on a different partition
+2. `lsblk` shows swap space
+3.  When I login the indicated ssh banner should be there.
