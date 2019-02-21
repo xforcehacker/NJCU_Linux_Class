@@ -8,18 +8,28 @@
 3. Change the ssh message of the day of your machine to be three sentences explaining why someone would move their home
 directory to a new partition, and a bit of text explaining what swap space is and why you would want it. 
 
-4. Configure a user account that I can ssh into to verify your assignment.
-
 How to do it:
 https://www.tecmint.com/move-home-directory-to-new-partition-disk-in-linux/
 https://www.daveperrett.com/articles/2007/03/27/change-the-ssh-login-message/
 
 ## Grading:
-0% or 100%, should be a straight forward assignment. To get a 100% I want to be able to login to your machine as:
-username: melvyn
-password: melvyn
+0% or 100%, should be a straight forward assignment.
 
-I'm going to ssh in. I expect to see:
-1. `lsblk` shows the home directory on a different partition
-2. `lsblk` shows swap space
-3.  When I login the indicated ssh banner should be there.
+Configure a new vm to satisfy the above criteria. Log in to the machine via ssh and run the following commands:
+
+```
+$uptime
+$lsblk
+$free -h
+$curl ipinfo.io/ip
+```
+
+Then take a screenshot or a picture with your phone showing the ssh banner, and the output of the indicated commands. Pull request the picture in a directory called $yourName under Week5. Same as for week 4. 
+
+Expectations:
+uptime should be less than 1 hour. I want you to configure this machine in just a few minutes.
+lsblk should show the home partition, maybe the swap space.
+free should definitely show the swap space.
+everyone's homework should be different, I'm verifying this via your ip address.
+
+See my sample submission in the Week5 directory.
