@@ -1,0 +1,4 @@
+rm cannot be undone, once something is removed it is gone forever
+linux has no recycle bin like windows does
+using a -r, it is possible to delete stuff you did not mean to, specially when using wildcards
+
