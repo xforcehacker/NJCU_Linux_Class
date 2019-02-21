@@ -1,0 +1,20 @@
+#!/bin/bash
+
+
+alias remove='rm -r' #this turned remove into a command that means rm -r remove recursively"
+
+alias hw4='cd /home/rich19diaz/TestPullRequest/Homework4' #this an alternative comand to have faster access to homework4 directory
+
+alias hw3='cd /home/rich19diaz/Assignment3' #this the alternative directory to get to homework 3
+
+alias hw2='cd /home/rich19diaz/Assignment2' #this alternative to directory to homework2
+
+alias switch2klk= 'sudo su - klk' #just playing more to switch from user rich19diaz to user klk
+
+function(){
+
+	echo"Hello, Today's date is"
+	date
+}
+
+function
