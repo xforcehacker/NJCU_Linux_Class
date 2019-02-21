@@ -1,0 +1,1 @@
+Rm is extremely dangerous because it is the command used to delete folders and files. This can be dangerous because you can delete important system files
