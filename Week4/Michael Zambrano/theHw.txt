@@ -1,0 +1,2 @@
+The Rm command is so powerful because there is no way back from what ever you delete. 
+a good example of the rm command would be rm -rf this will delete everything in the directory without a warning. 
