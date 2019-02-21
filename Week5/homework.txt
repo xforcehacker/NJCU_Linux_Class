@@ -9,6 +9,7 @@ a new partition, and a bit of text explaining what swap space is and why you wou
 
 How to do it:
 https://www.tecmint.com/move-home-directory-to-new-partition-disk-in-linux/
+https://www.daveperrett.com/articles/2007/03/27/change-the-ssh-login-message/
 
 Grading:
 I'm going to log into your machine. I want to see swap space, a home directory on a new partition, and the indicated 
