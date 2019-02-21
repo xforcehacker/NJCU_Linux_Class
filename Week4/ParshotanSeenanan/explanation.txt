@@ -1,0 +1,1 @@
+Rm is a dangerous command because of how 'powerful' it is. It can completely remove a file or folder without as much as a warning. Coupled with the fact that on Linux when a file a removed, there is no trash bin or recylce where you can go to restore it, means that one accidental rm command can never be taken back. 
