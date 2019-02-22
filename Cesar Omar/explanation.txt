@@ -1,7 +1,0 @@
-Greetings Professor,
-
-Ok, to the best of my knowledge and what i have read online and some other resource materials, "rm" Command is the fastet way to delete a folder."RM" which is short for "remove" is a basic command on Unix operating system. 
-This command can not also delete folders but the entire contents within the folder. However, the problem can be very critical as one typo may damage the entire system completely. 
-
-Student"
-Cesar Omar Sanchez
