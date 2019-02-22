@@ -1,0 +1,10 @@
+echo "rm is dangerous because in Linux won't ask you for confirmation if one runs a command that can break the system."
+sleep 1
+
+echo " rm -rf would delete all files and folders inside the specified folder"
+sleep 1
+
+echo " rm -rf would delete in your home folder, and rm -rf* would delete all configuration files"
+sleep 1
+
+
