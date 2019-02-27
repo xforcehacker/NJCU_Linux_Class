@@ -1,0 +1,10 @@
+Hello Linux Class
+This is Mark Decello
+I did all this work!
+
+commands used:
+$lsblk
+$ls -l /home 
+$free -h
+$curl ipinfo.io/ip
+$uptime

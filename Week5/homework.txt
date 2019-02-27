@@ -13,7 +13,7 @@ https://www.tecmint.com/move-home-directory-to-new-partition-disk-in-linux/
 https://www.daveperrett.com/articles/2007/03/27/change-the-ssh-login-message/
 
 ## Grading:
-PR must be received by :00 PM on Thursday or won't be merged or graded.
+PR must be received by 7:00 PM on Thursday or won't be merged or graded.
 50% for home directory moved. Must be on new partition with proper permissions.
 40% for swap space.
 10% for banner.
