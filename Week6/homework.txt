@@ -1,9 +1,7 @@
 Homework 6:
 
-1. Using what you know about setuid, write a C program that performs an action requiring root permission. 
-Compile this program using gcc, change the permission bits appropriately, and then run it as an unprivileged user.
-Use the provided template problem1.c
-
+1. Compile, change ownership, and change permissions on the execve_setuid program we looked at in class.
+ 
 2. Get the hangman game from the 12/ directory here: https://github.com/brandonprry/wicked_cool_shell_scripts_2e 
  Make the code work. It uses a tool "randomquote" on line 23. "randomquote" is available in the 8/ directory of that repository.
  Add some signal handling to the bash script so that CTRL+C does not stop the process. 
@@ -25,23 +23,19 @@ For credit upload two images to  Week6/YourName . For image 1 I want you to run:
 
 Image 1:
 ```
+$date
 $curl ipinfo.io/ip
+$gcc execve_setuid.c -o example
+$sudo chown XX:XX
+$sudo chmod XXXX
+$whoami
+$./example
 [output]
-$cat problem1.c
-[file contents]
-$gcc problem1.c -o problem1
-$chmod,chown,chgrp (appropriately)
-$ls -l 
-[correct output]
-$sudo su - unprivilegedUser
-$groups
-[not in sudo]
-$./problem1
-$[demonstrate that the root action occured]
 ```
 
 Image2:
 ```
+$whoami
 $curl ipinfo.io/ip
 [output]
 $ cat /usr/lib/games/long-words.txt
