@@ -8,11 +8,8 @@ Create a patterns.txt file to work with the provided script.sh.
 The output in the terminal should be:
 
 4
-
 3
-
 2
-
 0
 
 Each iteration of the while loop should delete one line from file.txt based on a regular expression you write into patterns.txt.
