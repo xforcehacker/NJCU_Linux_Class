@@ -22,7 +22,9 @@ Grading:
 
 Submission:
 
-For credit upload two images to  Week6/YourName . For image 1 I want you to run:
+For credit upload two images to  Week6/YourName. Also add your hangman code for problem 2.
+
+For image 1 I want you to run:
 
 Image 1:
 ```
