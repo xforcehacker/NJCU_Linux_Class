@@ -9,3 +9,4 @@ https://www.reddit.com/r/redditdev/comments/43z4gp/get_top_posts_in_json_from_su
 
 curl -X GET -L https://www.reddit.com/r/TellMeAFact/top/.json?count=20
 
+What's a rest API? There is some good discussion o it here: https://www.reddit.com/r/learnprogramming/comments/40lfkn/eli5_rest_api/ . Or you can just google it. 
