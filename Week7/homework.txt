@@ -1,3 +1,11 @@
-Follow instructions to set up a webserver on your machine. 
+Homework:
 
-Follow instructions so that I can make REST requests to it.
+1. Find and install a non-free software package on debian 9 by modifying your sources.list file.
+
+2. Install curl from source to /usr/local/bin. When you run curl on the command line by typing 'curl' which version of curl is run? If your system is not confiured so that the version you just built is run by default, change your configuration. Explain how you did it.
+
+3. Write an https request with curl to hit a the reddit rest API. If the version you compiled doesn't work, just use the one available by default.
+https://www.reddit.com/r/redditdev/comments/43z4gp/get_top_posts_in_json_from_subreddit_with_curl/
+
+curl -X GET -L https://www.reddit.com/r/TellMeAFact/top/.json?count=20
+
