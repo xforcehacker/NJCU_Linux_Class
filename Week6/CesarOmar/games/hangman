@@ -23,11 +23,9 @@ while [ "$guess" != "quit" ] ; do
   match="$(./randomquote $wordlib)"      # pick a new word from the library
 
   if [ $games -gt 0 ] ; then
-    echo ""
+    echo "SIGQUIT"
     echo "*** New Game! ***"
      trap 'echo "Ctrl-C ignored" ' INT
-
-done
 
   fi
 
