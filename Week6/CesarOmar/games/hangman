@@ -20,7 +20,7 @@ fi
 # The big while loop. This is where everything happens
 
 while [ "$guess" != "quit" ] ; do
-  match="$(randomquote $wordlib)"      # pick a new word from the library
+  match="$(./randomquote $wordlib)"      # pick a new word from the library
 
   if [ $games -gt 0 ] ; then
     echo ""
