@@ -3,13 +3,16 @@ Homework 6:
 1. Compile, change ownership, and change permissions on the execve_setuid program we looked at in class.
  
 2. Get the hangman game from the 12/ directory here: https://github.com/brandonprry/wicked_cool_shell_scripts_2e 
- Make the code work. It uses a tool "randomquote" on line 23. "randomquote" is available in the 8/ directory of that repository.
+ Make the code work. It uses a tool "randomquote" on line 23. "randomquote" is available in the 8/ directory of that 
+ repository.
  Add some signal handling to the bash script so that CTRL+C does not stop the process. 
- We didn't cover bash signal handling in class Instead we covered signal handling with C. In bash it is even easier. Make sure to 
+ We didn't cover bash signal handling in class Instead we covered signal handling with C. In bash it is even easier. Make 
+ sure to 
  read this: https://www.linuxjournal.com/article/10815
 
 Notice that this game depends on a file called long-words.txt. So far as I can tell the download link provided by the script
-is dead. Just make your own file containing some words. Nothing vulgar or inappropriate, just 5 or so words, each on it's own line.
+is dead. Just make your own file containing some words. Nothing vulgar or inappropriate, just 5 or so words, each on it's own
+line.
 
 Due: Before 7:00 PM on March 7th.
 
@@ -19,7 +22,9 @@ Grading:
 
 Submission:
 
-For credit upload two images to  Week6/YourName . For image 1 I want you to run:
+For credit upload two images to  Week6/YourName. Also add your hangman code for problem 2.
+
+For image 1 I want you to run:
 
 Image 1:
 ```
