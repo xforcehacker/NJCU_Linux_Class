@@ -14,6 +14,11 @@ Some references:
 
   What's a rest API? There is some good discussion o it here: https://www.reddit.com/r/learnprogramming/comments/40lfkn/eli5_rest_api/ . Or you can just google it. 
 
+4. Write a hash algorithm that takes inputs and returns: 
+  a. If the input is non-numeric: 0
+  b. If the input is even: 1
+  c. If the input is odd: 2
+
 Grading:
 Pull Request due March 21st by 7PM.
 
