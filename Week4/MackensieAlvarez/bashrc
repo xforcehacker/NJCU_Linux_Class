@@ -1,0 +1,11 @@
+
+alias remove='rm -rf'
+
+alias home="cd ~/"
+alias logs="cd /var/log/"
+alias users="cd /home/"
+
+myName(){
+	echo "My name is Mackensie"
+}
+myName

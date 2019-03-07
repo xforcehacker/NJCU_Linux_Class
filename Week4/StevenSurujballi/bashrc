@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# 1. An alternative to rm
+
+alias rmconfirm = "rm -rf"
+
+# 2. aliases for 3 directories so it's easier to cd to them
+
+alias home="cd ~/"
+
+alias logs="cd /var/log/"
+
+alias homework="cd ~/NJCU/Homework"
+
+# 3. write a function that does something
+
+ myAge() {
+	echo "I am 25 years old."
+}
+

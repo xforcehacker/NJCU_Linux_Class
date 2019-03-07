@@ -1,0 +1,1 @@
+One reason why rm is dangerous to use is because when used on a file, that file can not be recovered again. Other applications like the recycle bin will allow a user to recover thier file. Using rm will destory the item forever.

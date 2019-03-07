@@ -1,0 +1,16 @@
+b)
+	1.) alias rm = echo "not really removing"
+
+	2.) alias l = cd/goingintoadirectorybutfaster/l
+
+	    alias i = cd/goingin/l/i
+
+	    alias z = cd/a/b/z
+
+
+	3.) function doSomething()
+	{
+		echo "please enter your name"
+		read NAME
+		echo "sup $NAME"
+	}

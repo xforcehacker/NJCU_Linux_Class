@@ -1,0 +1,11 @@
+alias rm='rem'
+
+alias file1= 'cd /home/cminervini9/this'
+alias file2= 'cd /home/cminervini99/that'
+alias file3= 'cd /home/cminervini9/other'
+
+print_something () {
+        echo Hello I am a function
+}
+print_something
+print_something

@@ -1,0 +1,35 @@
+b) A bashrc file ( we'll call it bashrc and not .bashrc just so it's easier to commit the file )
+    
+        containing
+            1. an alternative to rm ( either an alias or a function
+              Option below:
+
+            	mv filename /tmp
+
+            	"This will move the filename to a temp folder"
+
+
+            2. aliases for 3 directories so it's easier to cd to them
+				
+		          option 1: 
+              alias myfold='cd ~/Files/Scripts/Main'
+              
+				      option 2: 
+              alias cdrun='( cd "$HOME/somedir" && ./script.sh )'
+              
+				      option 3: 
+              PATH="$PATH:$HOME/somedir"
+
+
+           3. a function that does something
+              Option below: 
+              
+              
+
+					      function myfunc()
+					      {
+    					    myresult='some value'
+					      }
+
+				      myfunc
+				      echo $myresult

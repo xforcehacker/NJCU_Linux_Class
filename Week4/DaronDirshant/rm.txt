@@ -1,0 +1,1 @@
+Rm is a dangerous command because once you remove something you can't get it back because there is no recycle bin. You can remove folders and directories recursively. You can remove your root directory.
