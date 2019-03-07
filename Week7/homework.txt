@@ -25,9 +25,7 @@ Some references:
 Grading:
 Pull Request due March 21st by 7PM.
 
-34% for installing a non-free package
-33% for installing curl from source AND answering the questions correctly
-33% for successfully running curl against a reddit REST api.
+100%/6 points for successful completion of each of the 6 bullet points below.
 
 Submission:
 You PR should contain 6 files as described below and be in Week7/YourName:
