@@ -1,0 +1,1 @@
+the curl version that is run when I type "curl" is the one installed in /the/path/to/package. This is because of these reasons.
