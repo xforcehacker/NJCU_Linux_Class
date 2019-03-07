@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-trap "echo Exit signal is detected" SIGINT
+trap "echo Exit signal is detected (CTRL+ C)" SIGINT
 # hangman - A simple version of the hangman game. Instead of showing a
 #   gradually embodied hanging man, this simply has a bad guess countdown.
 #   You can optionally indicate the initial distance from the gallows as
