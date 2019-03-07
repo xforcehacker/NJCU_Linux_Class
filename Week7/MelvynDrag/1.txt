@@ -1,0 +1,3 @@
+I installed *thisPackage*. I had to add the following line to my sources.list file:
+
+deb blah blah blah non-free

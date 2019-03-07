@@ -1,6 +1,6 @@
 # Extra credit 2
 
-Create a cron job to compress your /home directory into a .tar once an hour. 
+Create a cron job to package your /home directory into a .tar once an hour. 
 The cron  job should store the .tar in /backups, and it should be called HOME_MONTH_DAY_YEAR_HOUR
 with MONTH, DAY, etc. being appropriately named.
 
