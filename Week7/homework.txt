@@ -1,10 +1,14 @@
 Homework:
 
-1. Find and install a non-free software package on debian 9 by modifying your sources.list file. *Note*: non-free means non-free. 0 credit for installing a contrib package. 0 credit for installing a main package. It must be a non-free package!!!
+1. Find and install a non-free software package on debian 9 by modifying your sources.list file. *Note*: non-free means
+non-free. 0 credit for installing a contrib package. 0 credit for installing a main package. It must be a non-free package!!!
 
-2. Install curl from source to /usr/local/bin. a) When you run curl on the command line by typing 'curl' which version of curl is run? b) Why is that version of curl run and not the other?
+2. Install curl from source to /usr/local/bin. a) When you run curl on the command line by typing 'curl' which version of
+curl is run? b) Why is that version of curl run and not the other?
 
-3. Write an https request with curl to hit a the reddit rest API. If the version you compiled doesn't work, just use the one available by default. You may get an error response "too many request". 
+3. Write an https request with curl to hit a the reddit rest API. If the version you compiled doesn't work, just use the one 
+available by default. You may get an error response "too many request". 
+
 Some references:
   https://www.reddit.com/r/redditdev/comments/43z4gp/get_top_posts_in_json_from_subreddit_with_curl/
 
