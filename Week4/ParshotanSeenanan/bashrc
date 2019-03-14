@@ -1,0 +1,10 @@
+alias rm=echo "Be extremely careful"
+
+alias a="cd /placeholder/youdontwannatypeallthis/a"
+alias b="cd /c/d/b"
+alias d="cd /c/d"
+
+function doesSomething() {
+	echo "Does Something?"
+}
+

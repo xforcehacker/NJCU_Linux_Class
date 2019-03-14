@@ -1,0 +1,37 @@
+Homework:
+
+1. Find and install a non-free software package on debian 9 by modifying your sources.list file. *Note*: non-free means
+non-free. 0 credit for installing a contrib package. 0 credit for installing a main package. It must be a non-free package!!!
+
+2. Install curl from source to /usr/local/bin. a) When you run curl on the command line by typing 'curl' which version of
+curl is run? b) Why is that version of curl run and not the other?
+
+3. Write an https request with curl to hit a the reddit rest API. If the version you compiled doesn't work, just use the one 
+available by default. You may get an error response "too many request". 
+
+Some references:
+  https://www.reddit.com/r/redditdev/comments/43z4gp/get_top_posts_in_json_from_subreddit_with_curl/
+
+  Example curl request:
+  curl -X GET -L https://www.reddit.com/r/TellMeAFact/top/.json?count=20
+
+  What's a rest API? There is some good discussion o it here: https://www.reddit.com/r/learnprogramming/comments/40lfkn/eli5_rest_api/ . Or you can just google it. 
+
+4. Write a hash algorithm that takes inputs and returns: 
+  a. If the input is non-numeric: 0
+  b. If the input is even: 1
+  c. If the input is odd: 2
+
+Grading:
+Pull Request due March 21st by 7PM.
+
+100%/6 points for successful completion of each of the 6 bullet points below.
+
+Submission:
+You PR should contain 6 files as described below and be in Week7/YourName:
+1. .txt file telling me the name of the package you installed and how you had to modify your sources.list to install it. 
+2. screenshot showing that you built curl from scratch.
+3. .txt file containing the answer to questions (a) and (b) from #2 above.
+4. .txt file showing the rest request you ran and the output of it.
+5. file myhash.sh that takes an argument and outputs the hash of it. e.g. if you run "bash myhash.sh somehinggoeshere"
+6. screenshot of you hash file in action generating the appropirate hashes for even, odd, and string value inputs.

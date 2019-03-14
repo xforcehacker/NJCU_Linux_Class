@@ -1,0 +1,5 @@
+I ran this command:
+  curl -X GET -L https://www.reddit.com/r/linux4noobs/top/.json?count=20
+The command line output was:
+
+{ key: value }

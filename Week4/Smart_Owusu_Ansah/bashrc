@@ -1,0 +1,13 @@
+touch poop
+alias norm="rm -fr ./poop"
+mkdir scoop
+mkdir de
+alias yeet="cd scoop"
+alias ya="cd ../de"
+alias yah="cd .."
+
+function yeezy(){
+  echo "one hundred billion dollars ~Dr.Evil"
+}
+
+yeezy

@@ -1,0 +1,13 @@
+alias rm=echo "no rm for you"
+
+alias top="cd ~/Desktop/"
+alias logs="cd /var/log/"
+alias home="cd ~/"
+
+helloWorld
+
+function helloWorld()
+{
+	echo "hello world"
+}
+

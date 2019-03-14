@@ -1,0 +1,3 @@
+Why rm command is dangerous? 
+rm command is for delete the file from the Unix/Linux system. Once you use rm, all your work is gone and it is not possible to recover. In order to understand that why it's impossible to recover the delete file, you need to know that Unix/Linux contains a free list which is list of disk blocks that aren't used. When you delete file, its directory entry is removed. If there are no more links to the file, its inode is added to the list of free inodes, and its datablocks are added to the free list.
+

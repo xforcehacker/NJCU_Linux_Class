@@ -1,0 +1,10 @@
+alias rm=echo "dont do this"
+
+alias wonp="cd home/loop"
+alias wodp= "cd home/loopy"
+alias wosp="cd home/woap"
+
+stoppin(){
+	echo " Why not jsut stop here"
+}
+

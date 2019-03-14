@@ -1,0 +1,2 @@
+a) rm is a dangerous command!
+rm is a dangerous command, because rm can permanently delete a folder or file. A user can delete sensitive information and will not be able to "undo" whatever information that user deletes. Only use the rm command IF you are absolutely positively okay with permanently losing whatever information you are deleting. 
