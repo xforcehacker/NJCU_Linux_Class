@@ -4,7 +4,7 @@
 #   You can optionally indicate the initial distance from the gallows as 
 #   the only arg.
 
-wordlib="/usr/lib/games/long-words.txt"
+wordlib="/home/cesaromar1973/NJCU_Linux_Class/Week6/CesarOmar/long-words.txt"
 empty="\."      # we need something for the sed [set] when $guessed=""
 games=0
 
@@ -20,15 +20,12 @@ fi
 # The big while loop. This is where everything happens
 
 while [ "$guess" != "quit" ] ; do
-  match="$(randomquote $wordlib)"      # pick a new word from the library
-
+  match="$(./randomquote $wordlib)"      # pick a new word from the library
+trap 'echo " -Ctrl-C ignored" ' INT
   if [ $games -gt 0 ] ; then
     echo ""
     echo "*** New Game! ***"
-     trap 'echo "Ctrl-C ignored" ' INT
-
-done
-
+   
   fi
 
   games="$(( $games + 1 ))"
@@ -82,3 +79,4 @@ done
   done
 done
 exit 0
+
