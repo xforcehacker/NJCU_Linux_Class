@@ -4,7 +4,8 @@
 
 Write the following programs on paper and turn in when complete. 
 Solutions should be simple, so there is no partial credit. 
-Code must run when typed into a bash script.
+Code must run when typed into a bash script. You will have 15 minutes
+to complete the exam.
 
 Problem 1 [50 pts.]:
 Write a bash oneliner to delete the 15 largest files under the current directory.
