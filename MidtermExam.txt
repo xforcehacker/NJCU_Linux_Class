@@ -1,0 +1,30 @@
+##############################################################
+###################  MIDTERM EXAM ############################
+##############################################################
+
+Write the following programs on paper and turn in when complete. 
+Solutions should be simple, so there is no partial credit. 
+Code must run when typed into a bash script.
+
+Problem 1 [50 pts.]:
+Write a bash oneliner to delete the 15 largest files under the current directory.
+This will use pipes. Explain each step of the command.
+
+hint to get you started:
+https://unix.stackexchange.com/questions/22432/getting-size-with-du-of-files-only
+
+Problem 2 [50 pts.]:
+Write a bash script that outputs the following:
+
+    user@machine$ ./myScript filename.txt
+    e #####################... ( 26 #s )
+    f #####################... ( 25 #s )
+    a #####################... ( 24 #s )
+    .
+    .
+    . ( there should be 26 rows. The last row has a letter and a single # )
+
+The program counts the letter frequencies in the input file and outputs 26 rows indicating which letter
+is the most common all the way down to which letter is least common.
+
+No python/ruby/java/etc. You have to use bash and common Linux command line tools.
