@@ -1,0 +1,2 @@
+a) The version of curl that is run when typing "curl" is the one installed in /usr/local/bin/curl
+b) This version of curl runs and not the other because it is higher hierarchically in the filesystem and therefore, it has a higher importance. This can be checked by typing "echo $PATH". 

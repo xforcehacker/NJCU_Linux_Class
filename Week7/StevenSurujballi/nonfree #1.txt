@@ -1,0 +1,5 @@
+I installed *bsdgames-nonfree_2.17-7_amd64.deb*. The following line was added to my source list:
+
+deb http://ftp.us.debian.org/debian stretch main non-free
+deb-src http://ftp.us.debian.org/debian stretch main non-free
+
