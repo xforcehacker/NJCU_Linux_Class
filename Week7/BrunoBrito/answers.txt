@@ -1,0 +1,14 @@
+a)when you type "curl -V" you get:
+curl 7.64.0 (x86_64-pc-linux-gnu) libcurl/7.52.1 OpenSSL/1.0.2r zlib/1.2.8 libidn2/0.16 libpsl/0.17.0 (+libidn2/0.16) libssh2/1.7.0 nghttp2/1.18.1 librtmp/2.3
+Release-Date: 2019-02-06
+Protocols: dict file ftp ftps gopher http https imap imaps ldap ldaps pop3 pop3s rtmp rtsp scp sftp smb smbs smtp smtps telnet tftp 
+Features: AsynchDNS IDN IPv6 Largefile GSS-API Kerberos SPNEGO NTLM NTLM_WB SSL libz TLS-SRP HTTP2 UnixSockets HTTPS-proxy PSL
+
+And running "which curl" get:
+/usr/local/bin/curl
+
+b)looking at the PATH variable you get:
+/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+
+This means that any packages installed at /usr/local/bin will be run instead of packages at /usr/bin, since the former appears first in the PATH and thus has precedence
+
