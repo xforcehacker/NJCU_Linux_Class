@@ -1,0 +1,12 @@
+!DRAFT!
+
+Idea 1: Create an android app. Students must make prs on the app repo with some tutorial about bash.
+
+Idea 2: Same as above but a website. Deploy the website on a vm?
+Whole class contributes to one website repo, everyone deploys individually?
+
+Idea 3: Ncurses application?
+
+Idea 4: LaTeX pdf tutorial?
+
+Idea 5: Series of bash exercises?
