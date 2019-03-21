@@ -1,0 +1,5 @@
+root@instance-4:/home/cesaromar1973# curl -V
+curl 7.64.0 (x86_64-pc-linux-gnu) libcurl/7.64.0 OpenSSL/1.1.0j
+Release-Date: 2019-02-06
+Protocols: dict file ftp ftps gopher http https imap imaps pop3 pop3s rtsp smb smbs smtp smtps telnet tftp 
+Features: AsynchDNS IPv6 Largefile NTLM NTLM_WB SSL TLS-SRP UnixSockets HTTPS-proxy 

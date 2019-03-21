@@ -1,0 +1,23 @@
+I added the following app
+
+Personal Address Manager for GNUstep (Goodies)
+ A tool that will merge your GNUMail address book into the Addresses database.
+
+sudo dpkg -i addresses-goodies-for-gnustep_0.4.8-2+b2_amd64.deb
+
+
+
+
+
+
+
+
+
+wget "https://packages.debian.org/stretch/amd64/addresses-goodies-for-gnustep/download"
+
+http://ftp.us.debian.org/debian/pool/main/a/addresses-for-gnustep/addresses-goodies-for-gnustep_0.4.8-2+b2_amd64.deb
+
+
+hash algorithm that takes inputs and returns If the input is non-numeric: 0
+hash algorithm that takes inputs and returns If the input is even: 1
+hash algorithm that takes inputs and returns If the input is odd: 2
