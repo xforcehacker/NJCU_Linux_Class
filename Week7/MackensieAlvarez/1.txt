@@ -1,0 +1,12 @@
+I added this to my source like :
+
+deb http://http.us.debian.org/debian unstable main  non-free 
+deb-src http://http.us.debian.org/debian unstable main  non-free
+
+Then i ran apt update and apt upgrade
+
+
+and the packaged i installed was php-bcmath.
+
+
+
