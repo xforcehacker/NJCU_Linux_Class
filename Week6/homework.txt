@@ -1,3 +1,54 @@
-Follow instructions to set up a webserver on your machine. 
+Homework 6:
 
-Follow instructions so that I can make REST requests to it.
+1. Compile, change ownership, and change permissions on the execve_setuid program we looked at in class.
+ 
+2. Get the hangman game from the 12/ directory here: https://github.com/brandonprry/wicked_cool_shell_scripts_2e 
+ Make the code work. It uses a tool "randomquote" on line 23. "randomquote" is available in the 8/ directory of that 
+ repository.
+ Add some signal handling to the bash script so that CTRL+C does not stop the process. 
+ We didn't cover bash signal handling in class Instead we covered signal handling with C. In bash it is even easier. Make 
+ sure to 
+ read this: https://www.linuxjournal.com/article/10815
+
+Notice that this game depends on a file called long-words.txt. So far as I can tell the download link provided by the script
+is dead. Just make your own file containing some words. Nothing vulgar or inappropriate, just 5 or so words, each on it's own
+line.
+
+Due: Before 7:00 PM on March 7th.
+
+Grading:
+50% The setuid/setgid program can be run as an unprivileged user to do some privileged action
+50% Hangman works, and ignores CTRL + C 
+
+Submission:
+
+For credit upload two images to  Week6/YourName. Also add your hangman code for problem 2.
+
+For image 1 I want you to run:
+
+Image 1:
+```
+$date
+$curl ipinfo.io/ip
+$gcc execve_setuid.c -o example
+$sudo chown XX:XX
+$sudo chmod XXXX
+$whoami
+$./example
+[output]
+```
+
+Image2:
+```
+$whoami
+$curl ipinfo.io/ip
+[output]
+$ cat /usr/lib/games/long-words.txt
+$./hangman
+[play a little bit]
+$CTRL+C
+[Should see a message that CTL+C was ignored]
+[play a little bit more]
+```
+
+See sample images for an example of a good submission.
