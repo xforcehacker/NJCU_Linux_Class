@@ -1,0 +1,8 @@
+The non-free package that I selected was 3270-common. In order for me to download this package,
+I just had to edit the following:
+
+First I went to /etc/apt/sources.list
+
+From there, I had changed the following: 
+
+deb http://deb.debian.org/debian/ stretch main non-free
