@@ -1,0 +1,4 @@
+
+2A. The version that ran was curl-7.64.0.
+
+2B. the Reason why this version was running it is because According to the $PATH of where each curl was located curls, curl-7.64.0 is found /usr first while the other it located unde  /usr/local/bin.
