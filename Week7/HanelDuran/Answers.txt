@@ -1,0 +1,2 @@
+a. When I typed “curl,” it provided me with the curl currently installed in /usr/local/bin/curl.
+b. That version of curl will only run due to the fact that /usr/local/bin/curl is considered higher in the filesystem. 
