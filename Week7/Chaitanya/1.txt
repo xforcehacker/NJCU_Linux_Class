@@ -1,0 +1,22 @@
+I installed ALIEN ARENA is standalone 3D first person online death-match shooter crafted from the original source code of Quake II and Quake III
+released by id software under the GPL license.
+
+
+Added this to the source.list. 
+
+  sudo vim /etc/apt/sources.list
+
+deb http://deb.debian.org/debian/ stretch main contrib non-free
+deb-src http://deb.debian.org/debian/ stretch main contrib non-free
+deb http://security.debian.org/ stretch/updates main contrib non-free
+deb-src http://security.debian.org/ stretch/updates main contrib non-free
+deb http://deb.debian.org/debian/ stretch-updates main contrib non-free
+deb-src http://deb.debian.org/debian/ stretch-updates main contrib non-free
+
+after adding those lines I used belowed commands. 
+  apt-get update
+  apt-get install alien-arena-data
+  
+To check if ALIEN ARENA IS THERE OR NOT.  
+  dpkg -l | grep alien
+  
