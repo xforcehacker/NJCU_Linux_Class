@@ -1,0 +1,2 @@
+I installed 3dldf-doc which is a 3D drawing software with MetaPost output. I had to add       deb http://ftp.de.debian.org/debian stretch main non-free to my sources.list in order to install it.
+

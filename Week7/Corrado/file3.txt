@@ -1,0 +1,1 @@
+When i run curl, i recieve a message back saying no curl version information is available. It should be saying Version 7.52 for /usr/bin/curl
