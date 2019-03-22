@@ -1,0 +1,3 @@
+a) The curl version that is run when I type "curl" is the one installed in /usr/local/bin/curl.
+
+b) That version of curl runs and not the other because /usr/local/bin/curl is higher in the filesystem hierarchy and therefore takes precedence.
