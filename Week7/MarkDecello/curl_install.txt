@@ -1,0 +1,1 @@
+The curl version that is run when I type "curl" is the one installed in /usr/local/bin/curl. This is because when you type the command "echo $PATH" you can see that "/usr/local/bin/" has precedence. Therefore, the other version of curl does not run and the curl installed from source is the one that runs.
