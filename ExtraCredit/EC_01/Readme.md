@@ -1,6 +1,12 @@
 # Extra credit one
 
-This homework has three parts
+This homework has three parts. I will replace your worst grade with the grade from this assignment, if it is an improvement. 
+Due no later than April 11th 2019 by 7:00 PM, no ifs, ands, buts, or strange technical circumstances requiring late submission! 
+Submit as a pull request with the following directory structure:
+
+```
+NJCU_Linux_Class/ExtraCredit/EC_01/YourName/YourStuff
+```
 
 ## Part One
 
