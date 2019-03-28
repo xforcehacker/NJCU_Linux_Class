@@ -30,9 +30,9 @@ Change SERVERNAME to your server ip address.
 ( a way to  get the server ip  is curl ipinfo.io/ip )
 
 ```
-a2enmod wsgi
-a2ensite helloworldapp
-service apache2 restart
+sudo a2enmod wsgi
+sudo a2ensite flaskapp
+sudo service apache2 restart
 ```
 
 Then you can access the website with curl ( from a different machine! Don't do this from the web server, it won't work. )
