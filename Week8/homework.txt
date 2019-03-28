@@ -1,3 +1,0 @@
-Follow instructions to set up a webserver on your machine. 
-
-Follow instructions so that I can make REST requests to it.
