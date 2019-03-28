@@ -1,0 +1,22 @@
+the package that i decided to install was the following (this description comes from the apt-cache call):
+unrar - Unarchiver for .rar files (non-free version)
+
+to find this package i added non-free to the end of the entries in /etc/apt/sources.list
+
+deb http://ftp.us.debian.org/debian/ stretch main non-free
+deb-src http://ftp.us.debian.org/debian/ stretch main non-free
+
+deb http://security.debian.org/debian-security stretch/updates main non-free
+deb-src http://security.debian.org/debian-security stretch/updates main non-free
+
+# stretch-updates, previously known as 'volatile'
+deb http://ftp.us.debian.org/debian/ stretch-updates main non-free
+deb-src http://ftp.us.debian.org/debian/ stretch-updates main non-free
+
+
+Then I ran sudo apt-get update
+followed by: sudo apt-cache search non-free
+i also added a grep non-free to filter for packages that clearly stated they were non-free
+
+To actually install the package we run: sudo apt-get install unrar
+

@@ -1,0 +1,5 @@
+A) When you run curl on the command line by typing 'curl' which version of curl is run? 
+-> Version which installed on /usr/local/bin/curl will be running.
+B) Why is that version of curl run and not the other? 
+-> Since curl has been installed on /usr/local/bin/curl and which is the first path and once linux/unix finds the command in there
+   it runs from it. 

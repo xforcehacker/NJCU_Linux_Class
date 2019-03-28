@@ -10,7 +10,9 @@ to complete the exam.
 Problem 1 [50 pts.]:
 Write a bash oneliner to delete the 15 largest files under the current directory.
 This will use pipes. Explain each step of the command.
-You might use the 'find' and 'du' commands. We haven't talked about 'find' yet, and we haven't talked about 'du' - disk-usage since week 1. You can probably google "how to delete the largest files in directory" or something like that to learn about how to do this. Make sure you are deleting FILES and not DIRECTORIES!!!
+You might use the 'find' and 'du' commands. We haven't talked about 'find' yet, and we haven't talked about 'du' - disk-usage since week 1.
+You can probably google "how to delete the largest files in directory" or something like that to learn about how to do this. Make sure you
+are deleting FILES and not DIRECTORIES!!!
 
 
 hint to get you started:

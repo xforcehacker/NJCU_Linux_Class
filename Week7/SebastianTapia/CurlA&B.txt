@@ -1,0 +1,4 @@
+a) When you run curl on the command line by typing 'curl' which version of
+curl is run? Its comes up as the one installed in /usr/local/bin/curl
+b) Why is that version of curl run and not the other?
+That version is ran because when you typed $PATH you see that /usr/local/bin/ as it pops up first. This is why the curl installed in the source runs.

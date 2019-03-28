@@ -1,0 +1,8 @@
+a) When i run curl --version, i get version 7.58.
+
+
+b) I installed version 7.64 but the reason it doesnt show is because the default curl is installed. Linux finds the default curl first before the one i installed and uses that one.  
+
+
+
+

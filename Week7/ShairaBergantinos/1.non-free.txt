@@ -1,0 +1,5 @@
+I installed bsdgames-nonfree.
+
+I had to add the following line to my sources.list file:
+deb http://http.us.debian.org/debian stretch main non-free
+deb-src http://http.us.debian.org/debian stretch main non-free
