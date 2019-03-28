@@ -12,6 +12,7 @@ git clone https://github.com/melvyniandrag/NJCU_Linux_Class.git
 Then install some dependencies.
 
 ```
+sudo su -
 sudo apt-get install python3-pip python3-dev
 sudo apt-get install apache2 libapache2-mod-wsgi-py3
 pip3 install flask flask_restful
