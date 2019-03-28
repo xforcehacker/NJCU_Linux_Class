@@ -1,3 +1,10 @@
-Follow instructions to set up a webserver on your machine. 
+Homework
 
-Follow instructions so that I can make REST requests to it.
+Configure an apache webserver in line with my instructions and as we did in class. Then add two end points that accept GET and POST requests.
+
+Use curl to hit the end points. 
+
+Submission:
+
+In a directory under your name include your web application code.
+Include a script that shows 4 requests you made with curl - one get, one post, another get, and another post.
