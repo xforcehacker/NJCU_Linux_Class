@@ -25,7 +25,7 @@ Remove or rename /var/www/html
 
 flaskapp.conf goes under /etc/apache2/sites-available
 
-Change SERVERNAME to your server ip address.
+Change ServerName in /etc/apache2/sites-available/flaskapp.conf to point to your server ip addresss
 
 ( a way to  get the server ip  is curl ipinfo.io/ip )
 
