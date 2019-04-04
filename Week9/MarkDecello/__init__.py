@@ -22,7 +22,7 @@ class Anime(Resource):
         return {"anime": None}, 404
 
     def post(self, name):
-        new_anime = {'name': name}
+        new_anime = {'anime': name}
         anime.append(new_anime)
         return new_anime, 201
 
