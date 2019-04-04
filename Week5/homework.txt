@@ -1,19 +1,43 @@
-Three Todos:
+# Homework 5
+## To Do:
 
-1. Move your home directory to a new partition on a new disk.
+1. Move the home directory to a new partition on a new disk. Update /etc/fstab if necessary to make permanent.
 
-2. Add swap space to your machine.
+2. Add swap space to your machine. Update /etc/fstab if necessary to make you rswap space permanent.
 
-3. Change the ssh banner of your machine to be a brief bit of text explaining why someone would move their home directory to 
-a new partition, and a bit of text explaining what swap space is and why you would want more of it.
+3. Change the ssh message of the day of your machine to be three sentences explaining why someone would move their home
+directory to a new partition, and a bit of text explaining what swap space is and why you would want it. 
 
-How to do it:
+## Helpful references:
 https://www.tecmint.com/move-home-directory-to-new-partition-disk-in-linux/
+https://www.daveperrett.com/articles/2007/03/27/change-the-ssh-login-message/
 
-Grading:
-I'm going to log into your machine. I want to see swap space, a home directory on a new partition, and the indicated 
-ssh banner.
+## Grading:
+PR must be received by 7:00 PM on Thursday or won't be merged or graded.
+50% for home directory moved. Must be on new partition with proper permissions.
+40% for swap space.
+10% for banner.
 
-[TBD] Considering doing a screen share on discord, never did it before. I figure if we do a screen share I can verify that
-you know how to do this assignment! Will update soon.
-https://www.youtube.com/watch?v=XUYYFD_ETSM
+Configure a new vm to satisfy the above criteria. Log in to the machine via ssh and run the following commands:
+
+```
+$lsblk
+$ls -l /home 
+$free -h
+$curl ipinfo.io/ip
+$uptime
+```
+
+Then take a screenshot or a picture with your phone showing the ssh banner, and the output of the indicated commands. Pull request the picture in a directory called $yourName under Week5. Same as for week 4. 
+
+Expectations:
+banner should be visible
+lsblk should show the home partition, maybe the swap space.
+free should definitely show the swap space.
+everyone's homework should be different, I'm verifying this via your ip address.
+uptime should be less than 2 minutes. You have to reboot the machine to make sure that that your /home and swap space are
+permanent.
+
+See my sample submission in the Week5 directory.
+
+Not sure how I can verify that it's you doing this homework and not someone else. Respect points if in your image you can convince me that its you! Like a pic of you or your school id or your dog or something in the image!

@@ -1,0 +1,3 @@
+rm can cause unrecoverable system damage.
+it can cause accidental deletion of a file.
+can delete everything being worked on with the wrong command with no way to recover.

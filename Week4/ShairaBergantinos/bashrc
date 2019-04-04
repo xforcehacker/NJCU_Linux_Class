@@ -1,0 +1,12 @@
+# 1. an alternative to rm
+alias rmcheck = "rm -i"
+
+# 2. aliases for 3 directories
+alias docs = "cd ~/Documents/"
+alias pics = "cd ~/Pictures/"
+alias vids = "cd ~/Videos/"
+
+# 3. a function that does something
+function hw() {
+	echo "hello world"
+	}

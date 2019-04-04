@@ -1,0 +1,3 @@
+rm (Remove)
+
+Is a very dangerous command that can delete specific files or directories. In Unix, the use of rm is especially risky because there is no undelete command, so once deleted, it’s unrecoverable. If privileged user escalates his privileges to sudo and decides to use rm, then he could permanently remove sensitive and valuable data from the system.
