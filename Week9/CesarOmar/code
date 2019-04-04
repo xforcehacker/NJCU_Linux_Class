@@ -1,0 +1,9 @@
+Get
+curl http://losartesdeomar.com/NJCU/njcu_lati_schedule.html
+
+curl --request POST http://losartesdeomar.com/NJCU/njcu_lati_schedule.html
+
+curl --request GET http://losartesdeomar.com/NJCU/njcu_lati_schedule.html
+
+Post
+curl -d "param1=value1&param2=value2" -X POST http://losartesdeomar.com/NJCU/njcu_lati_schedule.html
