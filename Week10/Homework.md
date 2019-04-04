@@ -43,7 +43,7 @@ table header and possibly creates an associative array mapping letters to the ou
 create strings with the proper width. 
 
 Submission guidelines:
-Pull request by 7PM on 4-11
-Programs and data files for each of the two problems
-Snapshot of each program in action and showing that it works
-As usual all files go under a directory with your name under the appropriate week.
+1. Pull request by 7PM on 4-11
+2. Programs and data files for each of the two problems
+3. Snapshot of each program in action and showing that it works
+4. As usual all files go under a directory with your name under the appropriate week.
