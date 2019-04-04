@@ -41,3 +41,9 @@ I envision a solution to this problem using bash and awk. Most obviously, bash c
 and echo >> them into a file. Then an awk program runs on that file. The program has a "BEGIN" pattern/action that prints the
 table header and possibly creates an associative array mapping letters to the output string. For this you might use sprintf to
 create strings with the proper width. 
+
+Submission guidelines:
+Pull request by 7PM on 4-11
+Programs and data files for each of the two problems
+Snapshot of each program in action and showing that it works
+As usual all files go under a directory with your name under the appropriate week.
