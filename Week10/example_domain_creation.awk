@@ -3,6 +3,6 @@
 # then run the integral script as 
 # >>> awk -f integral_script.awk x.coordinates
 BEGIN {
-        for ( i = 1; i <= 10000; ++i )
+        for ( i = 0; i <= 10000; ++i )
                 print i * 0.0001
 }
