@@ -1,7 +1,11 @@
 # Run this before running the integral script
 # dump the output to a file called x.coordinates
+# for example:
+# >>> awk -f example_domain_creation.awk > x.coordinates
+#
 # then run the integral script as 
 # >>> awk -f integral_script.awk x.coordinates
+
 BEGIN {
         for ( i = 0; i <= 10000; ++i )
                 print i * 0.0001
