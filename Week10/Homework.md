@@ -7,6 +7,8 @@ function
 
 y = x^3 + 2.6*x - 11.7 on the domain [0,10]
 
+The correct answer is 2513.
+
 Supply the function with an increasing number of datapoints as we did in class and show that the approximation converges to the
 real value of the area of the curve. Demonstrate that the two programs converge to the same value. And it has to be the correct value.
 
