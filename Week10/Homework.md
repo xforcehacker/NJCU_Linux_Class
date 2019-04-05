@@ -1,14 +1,14 @@
 # Awk ( And maybe bash ) homework
 
 ## Problem 1
-In class we approximated the integral of a function (the area under the curve) using the right endpoint rule. See the example
-presented in class and the associated notes. For homework, write an awk program that uses the left endpoint rule to integrate the
+In class we approximated the integral of a function (the area under the curve) using an endpoint rule. See the example
+presented in class and the associated notes. For homework, write two awk programs that use the left and right endpoint rules to integrate the
 function
 
 y = x^3 + 2.6*x - 11.7 on the domain [0,10]
 
 Supply the function with an increasing number of datapoints as we did in class and show that the approximation converges to the
-real value of the area of the curve. 
+real value of the area of the curve. Demonstrate that the two programs converge to the same value. And it has to be the correct value.
 
 ## Problem 2
 Write a command line program that takes a list of space-delimited argument and behaves as follows:
