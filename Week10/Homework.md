@@ -2,7 +2,7 @@
 
 ## Problem 1
 In class we approximated the integral of a function (the area under the curve) using an endpoint rule. See the example
-presented in class and the associated notes. For homework, write two awk programs that use the left and right endpoint rules to integrate the
+presented in class and the associated notes. For homework, write an awk program that uses the left endpoint rule to integrate the
 function
 
 y = x^3 + 2.6*x - 11.7 on the domain [0,10]
@@ -10,7 +10,7 @@ y = x^3 + 2.6*x - 11.7 on the domain [0,10]
 The correct answer is 2513.
 
 Supply the function with an increasing number of datapoints as we did in class and show that the approximation converges to the
-real value of the area of the curve. Demonstrate that the two programs converge to the same value. And it has to be the correct value.
+real value of the area of the curve. And it has to be the correct value.
 
 ## Problem 2
 Write a command line program that takes a list of space-delimited argument and behaves as follows:
@@ -22,14 +22,9 @@ a     01100001 97      61  The letter a in ASCII encoding
 b     01100010 98      62  The letter b in ASCII encoding
 ``` 
 
-Make sure the output is left-aligned with the column headers. Also, the input should only accept the the characters
+Make sure the output is left-aligned with the column headers. Also, the input should only accept the following 27 characters:
 a-z
-A-Z
-0-9
-.
-,
-!
-?
+? 
 
 You don't need to include error handling of unacceptable characters. So you can assume the program will never be run as:
 
