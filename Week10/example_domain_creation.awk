@@ -7,6 +7,10 @@
 # >>> awk -f integral_script.awk x.coordinates
 
 BEGIN {
-        for ( i = 0; i <= 10000; ++i )
-                print i * 0.0001
+        NUM_X = 10000
+        START_X = 0
+        END_X = 1
+        DELTA = ( END_X - START_X ) / NUM_X
+        for ( i = START ; i <= NUM_X; ++i )
+                print i * DELTA
 }
