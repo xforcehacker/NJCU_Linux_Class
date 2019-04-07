@@ -1,1 +1,28 @@
-0 */1 * * * /home/cesaromar1973/backups/
+tar -cf srcdirectorybackup`date +%F`.tar /home/cesaromar1973/backup
+
+
+
+#!/bin/sh
+
+date=`date +%Y%m%d-%H%M`
+#echo Tid: $date
+
+bpath=/home/cesaromar1973/backup/
+
+cd $bpath/
+mkdir sys$date
+cd sys$date
+
+datumfil=$bpath/sys$date/$date
+> $datumfil
+
+tar -cvzf backup_04_07_2019.tar.gz /etc/ > backup_04_07_2019.tar.gz.list
+
+md5sum * >  md5sum
+ls -lh   >> md5sum
+
+
+
+
+
+0 */1 * * * /home/cesaromar1973/backup/backup_04_07_2019.tar.gz
