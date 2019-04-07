@@ -1,9 +1,20 @@
-Get
-curl http://losartesdeomar.com/NJCU/njcu_lati_schedule.html
+student = {'name': None, 'age': None}
 
-curl --request POST http://losartesdeomar.com/NJCU/njcu_lati_schedule.html
+class student (Resource):
+    def get(self):
+        return professor, 200
 
-curl --request GET http://losartesdeomar.com/NJCU/njcu_lati_schedule.html
+    def put(self):
+        data = request.get_json()
+        student['name']  = data['name']
+        student['age'] = data['age']
+        return student, 201
 
-Post
-curl -d "param1=value1&param2=value2" -X POST http://losartesdeomar.com/NJCU/njcu_lati_schedule.html
+api.add_resource( student, '/student')
+
+app.run(host='0.0.0.0', port=80)
+
+
+ curl -X PUT -H 'Content-Type: application/json' \
+        -d '{"name": "Cesar","age": unknown}' \
+        localhost/student
