@@ -1,0 +1,6 @@
+#!/bin/bash
+
+curl mysite.com
+curl -X POST -FfindMovie=Scarface mysite.com/movieList
+curl mysite.com/movieList
+curl -X POST -FfindMovie=Godfather mysite.com/movieList
