@@ -1,0 +1,6 @@
+BEGIN {
+printf(" %-15s %-15s %-15s %-15s %-15s\n", "INPUT", "BINARY", "DECIMAL", "HEX", "DESCRIPTION")
+};
+{
+printf("%-15s %-15s %-15d %-15x Your Letter %s in ASCII\n",$1, $3, $2, $2, $1)
+}
