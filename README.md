@@ -6,13 +6,9 @@ Course Materials for Spring 2019 Intro To Linux
    .b--.        /;   _.. \   _\  (`._ ,. 
   `=,-,-'~~~   `----(,_..'--(,_..'`-.;.'
 ```
-Link to register for google cloud:
+New Link (4/11/2019) for google cloud machines:
+https://google.secure.force.com/GCPEDU?cid=p5K9y%2BPK9V1v1WRBVkLbBHJQR2vS2Rs3EGaGtCD8WWTG4HihSvLQFw%2BgwmaiAkEs
 
-http://google.force.com/GCPEDU?cid=qWo7XK2Z0oaxYu1hqmQFprFpozpEI2OBfS5%2F5XMUZrQZ78fAkXpPb%2BNTtYPg7Tci/
-
-Another Link to register for another account on google cloud:
-
-http://google.force.com/GCPEDU?cid=b3%2FFDVCbYP4DKnr0CcCQIv3JcyYBzZ6iYUV9X4A7z7Irl54dRdexsEZRQ9hPlt5p/
 
 Recommended reading/viewing:
 
