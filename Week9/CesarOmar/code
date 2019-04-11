@@ -1,0 +1,20 @@
+student = {'name': None, 'age': None}
+
+class student (Resource):
+    def get(self):
+        return professor, 200
+
+    def put(self):
+        data = request.get_json()
+        student['name']  = data['name']
+        student['age'] = data['age']
+        return student, 201
+
+api.add_resource( student, '/student')
+
+app.run(host='0.0.0.0', port=80)
+
+
+ curl -X PUT -H 'Content-Type: application/json' \
+        -d '{"name": "Cesar","age": unknown}' \
+        localhost/student

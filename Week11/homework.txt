@@ -1,0 +1,42 @@
+UTF8, Awk, Sed
+
+Awk
+####################################
+1. Write an awk command to find the Russian name "Фёдор"  and output the word "Fyodor". 
+   Your search pattern must use OCTAL notation for "Фёдор"
+2. Write an awk command to find the Portuguese word "recordação" and output the word "memory". 
+   Your search pattern must use HEXADECIMAL notation for the search pattern.
+3. Write an awk command to find the Spanish word "niño" and output the word "boy".
+   Your search pattern must use OCTAL notation for the search pattern.
+4. Write an awk command to find between 3 and 5 crying laughing emojis and output "found ROFL!" for each matching line.
+   Your search pattern must use HEXADECIMAL notation for the search pattern.
+   
+Sed
+######################################
+Repeat the above, but use sed instead of awk. For information about how to find octal / hex characters, read the man page
+https://www.gnu.org/software/sed/manual/html_node/Escapes.html
+
+Submission guidelines:
+##############################
+1. PR due April 18th 2019 by 7PM.
+2. Include 2 files:
+  i) awk_and_sed.sh - contains the 8 commands from the above problems.
+  ii) sample_text.txt - contains a bunch of strings containing the indicated search patterns.
+      Your awk_and_sed.sh script should search this file for the indicated patterns and output the indicated values.
+      So, when I run your code I should see something like this:
+      
+      
+      melvyn@thinkpad$ ./awk_and_sed
+      Fyodor
+      memory
+      boy
+      boy
+      found ROFL!
+      Fyodor
+      memory
+      found ROFL!
+      found ROFL!
+      boy
+      
+3. Ten points for each correct command ( a total of 80 points ) 10 points for the awk_and_sed script working and 10 points for
+   sample_text.txt being correct.

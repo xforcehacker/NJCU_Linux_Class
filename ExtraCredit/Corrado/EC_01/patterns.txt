@@ -1,0 +1,1 @@
+grep a -o file.txt | wc -l

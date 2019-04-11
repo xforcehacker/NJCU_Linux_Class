@@ -6,15 +6,13 @@ Course Materials for Spring 2019 Intro To Linux
    .b--.        /;   _.. \   _\  (`._ ,. 
   `=,-,-'~~~   `----(,_..'--(,_..'`-.;.'
 ```
-Link to register for google cloud:
 
-http://google.force.com/GCPEDU?cid=qWo7XK2Z0oaxYu1hqmQFprFpozpEI2OBfS5%2F5XMUZrQZ78fAkXpPb%2BNTtYPg7Tci/
+## New Link (4/11/2019) for google cloud machines:
 
-Another Link to register for another account on google cloud:
+https://google.secure.force.com/GCPEDU?cid=p5K9y%2BPK9V1v1WRBVkLbBHJQR2vS2Rs3EGaGtCD8WWTG4HihSvLQFw%2BgwmaiAkEs
 
-http://google.force.com/GCPEDU?cid=b3%2FFDVCbYP4DKnr0CcCQIv3JcyYBzZ6iYUV9X4A7z7Irl54dRdexsEZRQ9hPlt5p/
 
-Recommended reading/viewing:
+## Recommended reading/viewing:
 
 In general there is an overabundance of reading material on the internet about Linux/Unix and, as we discussed, you sometimes don't even need to go anywhere to learn - right there in your terminal you have `--help` and `man COMMAND` to get answers about different linux tools. 
 
@@ -39,5 +37,5 @@ I've planned this class around the Linux Foundation System Admin Certification g
 
 Also, we won't have time for it in this class, but there's a great tutorial online called "Beej's guide to network programming". If you like network programming in C, or plan to do it in the future, I love this tutorial, I learned a ton from it and hope we have time to take a peek at it this semester. http://beej.us/guide/bgnet/pdf/bgnet_A4.pdf
 
-Class Lecture Notes: 
+## Class Lecture Notes: 
 https://github.com/melvyniandrag/Linux_Lecture_Notes

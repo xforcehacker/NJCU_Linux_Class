@@ -1,0 +1,8 @@
+curl -X GET mysite.com/studentz/Jane
+#nothing
+curl -X POST mysite.com/studentz/Jane
+curl -X POST mysite.com/studentz/Jack
+curl -X GET mysite.com/studentz/Jane
+#"name": "Jane"
+curl -X GET mysite.com/studentz/Jack
+#"name": "Jack"
