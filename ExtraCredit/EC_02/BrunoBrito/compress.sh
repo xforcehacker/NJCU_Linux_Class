@@ -14,5 +14,5 @@ hour="_$(echo $currDate | cut -d" " -f4 | cut -d":" -f1)"
 #echo $hour
 
 newName="backup$month$day$year$hour.tar"
-mv /backups/temp.tar $newName
+mv /backups/temp.tar /backups/$newName
 

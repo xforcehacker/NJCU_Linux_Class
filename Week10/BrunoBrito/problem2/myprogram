@@ -1,0 +1,11 @@
+#!/bin/bash
+
+for i in $@
+do
+	grep $i ascii-table >> temp
+done
+
+awk -f awkScript temp
+
+rm temp
+
