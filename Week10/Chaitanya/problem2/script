@@ -1,0 +1,7 @@
+#!/bin/bash
+for asci_list in $@
+do
+grep $asci_list ASCII_TABLE >> log
+done
+awk -f awk_script log
+rm log
