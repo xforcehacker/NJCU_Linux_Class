@@ -1,0 +1,11 @@
+#!/bin/bash
+
+for lingo in $@
+do
+	grep $lingo ascii >> t
+done
+
+awk -f AwkScript t
+
+rm t
+
