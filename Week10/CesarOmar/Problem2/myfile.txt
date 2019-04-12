@@ -1,0 +1,6 @@
+INPUT	BINARY	DECIMAL	HEX DESCRIPTION	
+a	01100001 97		61  	The letter a in ASCII encoding
+b	01100010 98		62		The letter b in ASCII encoding
+
+#The following command gets me all four columns
+# cut -f1-4 myfile.txt
