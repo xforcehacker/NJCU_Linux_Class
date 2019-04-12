@@ -1,0 +1,4 @@
+The name of the "non-free" packages or multiverse packages as Canonical calls the non-free repository, is a plug in and its dependencies for me to be able to use Skype in pidging
+Package: pidgin-skype-common (20140930+svn665+dfsg-1) [multiverse]
+
+Skype plugin for libpurple messengers (common files)

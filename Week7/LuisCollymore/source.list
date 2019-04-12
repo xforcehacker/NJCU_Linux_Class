@@ -1,0 +1,2 @@
+deb http://us-east1.gce.archive.ubuntu.com/ubuntu/ bionic-updates multiverse
+deb-src http://us-east1.gce.archive.ubuntu.com/ubuntu/ bionic-updates multiverse
