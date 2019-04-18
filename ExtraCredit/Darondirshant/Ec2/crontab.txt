@@ -1,0 +1,1 @@
+0 * * * * bash /home/daron.backup.sh
