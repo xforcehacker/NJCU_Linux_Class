@@ -1,5 +1,5 @@
 # Homework 13
-I want you to write a simple Caesar Cipher in bash that I can use to encrypt/decrypt a small bit of sample text ( as simple as "hello world!"). Then I want you to use my private gpg key to encrypt ( ascii version please, use --armor ) to encrypt your submission.
+I want you to write a simple Caesar Cipher in bash that I can use to encrypt/decrypt a small bit of sample text ( as simple as "hello world!"). Then I want you to use my public gpg key ( ascii encrypted please, use --armor ) to encrypt your submission.
 
 Here's an example of a caesar cipher in bash: https://gist.github.com/IQAndreas/030b8e91a8d9a407caa6
 Check wikipedia for more information.
