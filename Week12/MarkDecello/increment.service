@@ -1,0 +1,8 @@
+[Unit]
+Description=Python Service
+
+[Service]
+ExecStart=/opt/increment.py
+
+[Install]
+WantedBy=multi-user.target
