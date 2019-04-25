@@ -1,0 +1,8 @@
+[Unit]
+Description=Counts to 50 and 100
+
+[Service]
+ExecStart=/opt/programOne.py
+
+[Install]
+WantedBy=multi-user.target
