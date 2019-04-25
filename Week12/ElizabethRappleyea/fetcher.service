@@ -1,0 +1,8 @@
+[Unit]
+Description=My Personal Updater
+
+[Service]
+ExecStart=/opt/initfetch.sh
+
+[Install]
+WantedBy=multi-user.target

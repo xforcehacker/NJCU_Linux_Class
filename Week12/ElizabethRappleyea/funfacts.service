@@ -1,0 +1,8 @@
+[Unit]
+Description="first homework service"
+
+[Service]
+ExecStart=/opt/funfacts.py
+
+[Install]
+WantedBy=multi-user.target
