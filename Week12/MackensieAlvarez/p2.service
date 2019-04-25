@@ -1,0 +1,8 @@
+[Unit]
+Description=This program does the area of a triangle 
+
+[Service]
+ExecStart=/opt/p2.py
+
+[Install]
+WantedBy=multi-user.target
