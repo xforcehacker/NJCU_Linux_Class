@@ -2,7 +2,7 @@
 After=mysql.service
 
 [Service]
-ExecStart=/usr/local/bin/space-check.sh
+ExecStart=/usr/local/bin/disk-space-check.sh
 
 [Install]
 WantedBy=default.target
