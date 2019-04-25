@@ -1,0 +1,8 @@
+[Unit]
+Description=This is my second service HA! Take that
+
+[Service]
+ExecStart=/opt/Feliz.py
+
+[Install]
+WantedBy=multi-user.target

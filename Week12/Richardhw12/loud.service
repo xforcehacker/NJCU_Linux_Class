@@ -1,0 +1,8 @@
+[Unit]
+Description=LA Tercera Gano Rich!!! 
+
+[Service]
+ExecStart=/opt/loud.py
+
+[Install]
+WantedBy=multi-user.target
