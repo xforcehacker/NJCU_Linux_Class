@@ -1,0 +1,9 @@
+[Unit]
+Description=While loop that counts up to 5
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /usr/bin/while.sh
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,9 @@
+[Unit]
+Description=Function that print to screen
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /usr/bin/function.sh
+
+[Install]
+WantedBy=multi-user.target

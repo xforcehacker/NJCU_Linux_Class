@@ -1,0 +1,9 @@
+Unit]
+Description=First Service
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /usr/bin/km.sh
+
+[Install]
+WantedBy=multi-user.target
