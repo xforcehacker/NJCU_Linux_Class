@@ -1,0 +1,8 @@
+[Unit]
+Description=My first service
+
+[Service]
+ExecStart=/opt/script1.sh
+
+[Install]
+WantedBy=multi-user.target

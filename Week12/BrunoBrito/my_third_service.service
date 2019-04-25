@@ -1,0 +1,8 @@
+[Unit]
+Description=My third service
+
+[Service]
+ExecStart=/opt/script3.sh
+
+[Install]
+WantedBy=multi-user.target
