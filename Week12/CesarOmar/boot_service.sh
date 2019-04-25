@@ -1,4 +1,4 @@
-DATE=`date '+%Y-%m-%d %H:%M:%S'`
+DATE=date '+%Y-%m-%d %H:%M:%S'
 echo "Example service started at ${DATE}" | systemd-cat -p info
 
 while :
