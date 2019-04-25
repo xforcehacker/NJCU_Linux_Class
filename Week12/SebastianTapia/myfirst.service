@@ -1,0 +1,8 @@
+[Unit]
+Description=primer service
+
+[Service]
+ExecStart=/opt/first.sh
+
+[Install]
+WantedBy=multi-user.target
