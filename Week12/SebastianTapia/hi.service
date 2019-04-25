@@ -1,0 +1,8 @@
+[Unit]
+Description=My first service
+
+[Service]
+ExecStart=/opt/hi.py
+
+[Install]
+WantedBy=multi-user.target 
