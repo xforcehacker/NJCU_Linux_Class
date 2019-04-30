@@ -1,0 +1,9 @@
+[Unit]
+Description=First Sys Service 
+
+[Service]
+ExecStart=/bin/bash /usr/bin/first_service.sh
+Type=simple
+
+[Install]
+WantedBy=multi-user.target
