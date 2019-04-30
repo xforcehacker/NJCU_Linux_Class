@@ -1,0 +1,8 @@
+[Unit]
+Description=This program goes from 0 to 100 and writes even numbers
+
+[Service]
+ExecStart=/opt/p1.py
+
+[Install]
+WantedBy=multi-user.target

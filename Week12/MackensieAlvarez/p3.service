@@ -1,0 +1,8 @@
+[Unit]
+Description=This program sorts a list
+
+[Service]
+ExecStart=/opt/p3.py
+
+[Install]
+WantedBy=multi-user.target
