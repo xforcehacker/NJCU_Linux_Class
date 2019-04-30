@@ -1,0 +1,11 @@
+[Unit]
+Description=Third Sys Service
+After=my_second_service.service
+Requires=my_second_service.service
+
+[Service]
+ExecStart=/bin/bash /usr/bin/third_service.sh
+Type=simple
+
+[Install]
+WantedBy=multi-user.target
