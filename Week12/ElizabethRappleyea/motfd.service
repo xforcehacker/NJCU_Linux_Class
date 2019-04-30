@@ -1,0 +1,8 @@
+[Unit]
+Description=A shell serivce
+
+[Service]
+ExecStart=/opt/motfd.sh
+
+[Install]
+WantedBy=multi-user.target
