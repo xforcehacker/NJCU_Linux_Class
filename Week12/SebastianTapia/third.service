@@ -1,0 +1,8 @@
+[Unit]
+Description=My last service
+
+[Service]
+ExecStart=/opt/thescript3.sh
+
+[Install]
+WantedBy=multi-user.target
