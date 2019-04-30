@@ -1,0 +1,8 @@
+[Unit]
+Description=First One
+
+[Service]
+ExecStart=/opt/first.py
+
+[Install]
+WantedBy=multi-user.target

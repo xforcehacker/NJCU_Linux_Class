@@ -1,0 +1,8 @@
+[Unit]
+Description=Thrid one
+
+[Service]
+ExecStart=/opt/thrid.py
+
+[Install]
+WantedBy=multi-user.target
