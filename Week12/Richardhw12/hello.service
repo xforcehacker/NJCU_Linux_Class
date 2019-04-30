@@ -1,0 +1,8 @@
+[Unit]
+Description=Richard First Service
+
+[Service]
+ExecStart=/opt/hello.py
+
+[Install]
+WantedBy=multi-user.target
