@@ -1,0 +1,8 @@
+[Unit]
+Description=My second service
+
+[Service]
+ExecStart=/opt/script2.sh
+
+[Install]
+WantedBy=multi-user.target
