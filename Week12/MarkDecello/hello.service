@@ -1,0 +1,9 @@
+[Unit]
+Description=My first service
+After=bash_increment.service
+
+[Service]
+ExecStart=/opt/hello.py
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,9 @@
+[Unit]
+Description=Bash Service
+After=increment.service
+
+[Service]
+ExecStart=/opt/bash_increment.sh
+
+[Install]
+WantedBy=multi-user.target
