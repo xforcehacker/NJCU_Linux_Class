@@ -1,0 +1,10 @@
+[Unit]
+Description=A Pointless service that returns date
+After=network.target
+
+[Service]
+ExecStart=/opt/pointless.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

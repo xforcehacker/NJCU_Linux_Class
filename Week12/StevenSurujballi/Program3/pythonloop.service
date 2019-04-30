@@ -1,0 +1,8 @@
+[Unit]
+Description=Python program generates random characters
+
+[Service]
+ExecStart=/opt/pythonloop.py
+
+[Install]
+WantedBy=multi-user.target
