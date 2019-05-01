@@ -18,7 +18,7 @@ and get a response as indicated in the tutorial. We'll discuss Docker in class t
 ## Submission guidelines:
 
 1. PR due by May 9th, 7PM sharp!
-2. Instead of "Hello World!" your curl request should return "I am <your name>!".
+2. Instead of "Hello World!" your curl request should return "I am \<your name\>!".
 3. Screenshot containing:
  a) $ whoami
  b) $ docker container ls
